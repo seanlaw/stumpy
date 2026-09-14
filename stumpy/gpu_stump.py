@@ -6,6 +6,7 @@ import multiprocessing as mp
 import os
 
 import numpy as np
+
 try:
     from numba_cuda_mlir import cuda
 except ModuleNotFoundError:

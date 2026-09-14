@@ -10,6 +10,7 @@ import warnings
 
 import numpy as np
 from numba import njit, prange
+
 try:
     from numba_cuda_mlir import cuda
 except ModuleNotFoundError:
